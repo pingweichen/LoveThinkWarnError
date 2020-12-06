@@ -1,2 +1,2 @@
-# LoveWarnError
-Everyday Warn Error
+# LoveThinkWarnError
+Everyday think Warn Error

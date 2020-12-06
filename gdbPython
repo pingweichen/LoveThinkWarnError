@@ -60,6 +60,7 @@ tree, and GDB will still find it.)
 
 --solve
 参考
+https://sourceware.org/gdb/current/onlinedocs/gdb/
 https://stackoverflow.com/questions/42840043/gdb-python-api-how-to-access-events-in-python
 
 重新下载 gdb-7.12.tar.gz

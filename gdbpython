@@ -1,0 +1,61 @@
+--enviroment
+centos7 64
+GNU gdb (GDB) 7.12
+
+--warning
+[root@iZuf67on1pthsx3rfvmwceZ ex3]# gdb ./ex3
+Python Exception <type 'exceptions.ImportError'> No module named gdb: 
+gdb: warning: 
+Could not load the Python gdb module from `/usr/local/share/gdb/python'.
+Limited Python support is available from the _gdb module.
+Suggest passing --data-directory=/path/to/gdb/data-directory.
+
+GNU gdb (GDB) 7.12
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./ex3...done.
+(gdb) break main
+Breakpoint 1 at 0x40052c: file ex3.c, line 5.
+(gdb) run
+Starting program: /root/hardwayc/ex3/ex3 
+Python Exception <type 'exceptions.NameError'> Installation error: gdb.execute_unwinders function is missing: 
+Python Exception <type 'exceptions.NameError'> Installation error: gdb.execute_unwinders function is missing: 
+Python Exception <type 'exceptions.NameError'> Installation error: gdb.execute_unwinders function is missing: 
+Python Exception <type 'exceptions.NameError'> Installation error: gdb.execute_unwinders function is missing: 
+
+[root@iZuf67on1pthsx3rfvmwceZ gdb]# gdb --configuration
+Python Exception <type 'exceptions.ImportError'> No module named gdb: 
+gdb: warning: 
+Could not load the Python gdb module from `/usr/local/share/gdb/python'.
+Limited Python support is available from the _gdb module.
+Suggest passing --data-directory=/path/to/gdb/data-directory.
+
+This GDB was configured as follows:
+   configure --host=x86_64-pc-linux-gnu --target=x86_64-pc-linux-gnu
+             --with-auto-load-dir=$debugdir:$datadir/auto-load
+             --with-auto-load-safe-path=$debugdir:$datadir/auto-load
+             --without-expat
+             --with-gdb-datadir=/usr/local/share/gdb (relocatable)
+             --with-jit-reader-dir=/usr/local/lib/gdb (relocatable)
+             --without-libunwind-ia64
+             --without-lzma
+             --with-python=/usr
+             --without-guile
+             --with-separate-debug-dir=/usr/local/lib/debug (relocatable)
+             --without-babeltrace
+
+("Relocatable" means the directory can be moved with the GDB installation
+tree, and GDB will still find it.)
+
+--solve

@@ -5,4 +5,19 @@ https://inst.eecs.berkeley.edu/~scheme/precompiled/Linux/srcrebuild.html
 
 1. Download the source RPM and put it in /usr/src/redhat/SRPMS.
 2. Install the source RPM by running "rpm -ivh STk-4.0.1-UCB1.16.src.rpm" as root. 
-将STk-4.0.1-UCB1.16.src.rp改为STk-4.0.1-ucb1.3.6.i386.rpm，执行后就成功了
+将STk-4.0.1-UCB1.16.src.rp改为STk-4.0.1-ucb1.3.6.i386.rpm，执行后，不齐缺省的包，就成功了
+
+[root@iZuf67on1pthsx3rfvmwceZ SRPMS]# rpm -ivh STk-4.0.1-ucb1.3.6.i386.rpm
+error: Failed dependencies:
+        libICE.so.6 is needed by STk-4.0.1-ucb1.3.6.i386
+        libSM.so.6 is needed by STk-4.0.1-ucb1.3.6.i386
+        libX11.so.6 is needed by STk-4.0.1-ucb1.3.6.i386
+        libc.so.6 is needed by STk-4.0.1-ucb1.3.6.i386
+        libc.so.6(GLIBC_2.0) is needed by STk-4.0.1-ucb1.3.6.i386
+        libc.so.6(GLIBC_2.1) is needed by STk-4.0.1-ucb1.3.6.i386
+        libc.so.6(GLIBC_2.3) is needed by STk-4.0.1-ucb1.3.6.i386
+        libdl.so.2 is needed by STk-4.0.1-ucb1.3.6.i386
+        libm.so.6 is needed by STk-4.0.1-ucb1.3.6.i386
+        libm.so.6(GLIBC_2.0) is needed by STk-4.0.1-ucb1.3.6.i386
+
+[root@iZuf67on1pthsx3rfvmwceZ SRPMS]# yum install libICE.so.6

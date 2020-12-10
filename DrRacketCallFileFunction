@@ -24,6 +24,7 @@ error: Failed dependencies:
 
 
 https://stackoverflow.com/questions/16743537/code-works-in-stk-simply-but-not-in-mit-scheme
+拷贝 simply.scm 到 /root/sicp/ 目录
 [root@iZuf67on1pthsx3rfvmwceZ sicp]# stk
 Warning: DISPLAY variable is not set. Graphics will NOT be initialized.
 Welcome to the STk interpreter version 4.0.1-ucb1.3.6 [Linux-2.6.16-1.2108_FC4-i686]

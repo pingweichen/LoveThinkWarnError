@@ -21,3 +21,16 @@ error: Failed dependencies:
         libm.so.6(GLIBC_2.0) is needed by STk-4.0.1-ucb1.3.6.i386
 
 [root@iZuf67on1pthsx3rfvmwceZ SRPMS]# yum install libICE.so.6
+
+
+[root@iZuf67on1pthsx3rfvmwceZ sicp]# stk
+Warning: DISPLAY variable is not set. Graphics will NOT be initialized.
+Welcome to the STk interpreter version 4.0.1-ucb1.3.6 [Linux-2.6.16-1.2108_FC4-i686]
+Copyright (c) 1993-1999 Erick Gallesio - I3S - CNRS / ESSI <eg@unice.fr>
+Modifications by UCB EECS Instructional Support Group
+Questions, comments, or bug reports to <inst@EECS.Berkeley.EDU>.
+STk> (load "simply.scm")
+okay
+STk> (first 'hello)
+h
+

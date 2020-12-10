@@ -23,6 +23,7 @@ error: Failed dependencies:
 [root@iZuf67on1pthsx3rfvmwceZ SRPMS]# yum install libICE.so.6
 
 
+https://stackoverflow.com/questions/16743537/code-works-in-stk-simply-but-not-in-mit-scheme
 [root@iZuf67on1pthsx3rfvmwceZ sicp]# stk
 Warning: DISPLAY variable is not set. Graphics will NOT be initialized.
 Welcome to the STk interpreter version 4.0.1-ucb1.3.6 [Linux-2.6.16-1.2108_FC4-i686]

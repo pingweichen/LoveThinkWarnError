@@ -1,4 +1,19 @@
 --问题 DrRacket调用其他文件的函数
+https://stackoverflow.com/questions/45342053/how-do-i-load-my-file-at-drracket
+
+loader.ss
+#lang racket/load
+
+(load "reciprocal.ss")
+(display (reciprocal 10))
+
+reciprocal.ss
+(define reciprocal
+  (lambda (n)
+    (if (= n 0) "oops!"
+        (/ 1 n))))
+        
+reciprocal.ss 放在用户名目录下 C:\Users\Administrator
 
 --问题 UC Berkeley CS 61A 2010 Spring Brian Harvey STK 环境
 https://inst.eecs.berkeley.edu/~scheme/precompiled/Linux/srcrebuild.html

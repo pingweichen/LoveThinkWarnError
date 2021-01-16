@@ -5,3 +5,7 @@ python3.9
 https://www.christhoung.com/2018/07/15/embedded-python-windows/
 
 This setting change is saved in C:\Users\user_name\Appdata\Roaming\pip\pip.ini (in short, %APPDATA%\pip\pip.ini) file
+
+如果下载速度过慢可以切换源来解决，使用阿里云镜像最快或是清华
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
